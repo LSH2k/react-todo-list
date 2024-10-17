@@ -41,12 +41,14 @@ const Formulario = () => {
           onChange={(e) => setTitulo(e.target.value)}
           type="text"
           placeholder="Título"
+          id="titulo"
         />
         <Campo
           value={descricao}
           onChange={({ target }) => setDescricao(target.value)}
           as="textarea"
           placeholder="Descrição da tarefa"
+          id="descricao"
         />
         <Opcoes>
           <p>Prioridade</p>

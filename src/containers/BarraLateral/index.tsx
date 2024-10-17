@@ -29,6 +29,7 @@ const BarraLateral = ({ mostrarFiltros }: Props) => {
               placeholder="Buscar"
               value={termo}
               onChange={(evento) => dispatch(alterarTermo(evento.target.value))}
+              id="sidebar"
             />
             <S.Filtros>
               <FiltroCard
